@@ -4,6 +4,23 @@ A set of example files for bioinformatics applications.
 
 There are good files and naughty files.
 Naughty files should cause an error in a bioinformatics program.
+They fail a formal specification of the format.
+
+Good files are properly formatted.
+However, some programs might choose to fail on certain cases:
+empty contents,
+fasta with ragged line lengths in the sequence section,
+fasta with unicode sequence ids,
+CRLF fastas,
+CR fastas,
+fastas that have multiple sequences and dashes and therefore imply they might be an alignment, but the sequences aren't actually all the same length
+
+For these nuanced cases where the format passes specification
+but where individual programs might fail them, we cannot
+call them naughty.
+It is up to the individual programs to raise an error for
+their own specific definitions of naughty and is ouside the
+scope of this repo.
 
 # Installation
 
