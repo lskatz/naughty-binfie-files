@@ -16,6 +16,19 @@ To create the naughty files, run
 for i in t/*.sh; do bash $i; done;
 ```
 
+# Files
+
+## Good files
+
+* R1/R2 fastq files (max compression)
+
+## Bad files
+
+* fastq.gz
+  * R1/R2 with mismatched pairs
+  * R1/R2 with R1 truncated
+  * R1/R2 with R2 truncated
+
 # Contributions
 
 Create an issue first to discuss it,
