@@ -48,6 +48,7 @@ for i in t/*.sh; do bash $i; done;
   * R1/R2 with R2 truncated
 * fasta
   * phiX assembly with binary data in the middle of it
+  * phiX assembly with pipes representing contig breaks
 
 # Contributions
 
