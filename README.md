@@ -38,6 +38,7 @@ for i in t/*.sh; do bash $i; done;
 ## Good files
 
 * R1/R2 fastq files (max compression)
+* phiX assembly `NC_001422.1`
 
 ## Bad files
 
@@ -45,6 +46,8 @@ for i in t/*.sh; do bash $i; done;
   * R1/R2 with mismatched pairs
   * R1/R2 with R1 truncated
   * R1/R2 with R2 truncated
+* fasta
+  * phiX assembly with binary data in the middle of it
 
 # Contributions
 
