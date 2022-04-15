@@ -39,6 +39,7 @@ for i in t/*.sh; do bash $i; done;
 
 * R1/R2 fastq files (max compression)
 * phiX assembly `NC_001422.1`
+* Alignment of fasta files (created with bash loop above)
 
 ## Bad files
 
