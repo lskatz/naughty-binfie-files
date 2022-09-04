@@ -74,3 +74,7 @@ with a bash script under `t/`.
 * Bad fasta file
 * bad multifasta file
 * etc
+
+# See also
+
+* https://github.com/BioJulia/FormatSpecimens.jl
